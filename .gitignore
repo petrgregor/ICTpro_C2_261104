@@ -1,0 +1,55 @@
+# CMake a build složky
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# C/C++ zkompilované artefakty
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.app
+
+# LaTeX dočasné a build soubory
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.xdv
+
+# IDE a konfigurace editorů
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Externí závislosti (CMake FetchContent)
+_deps/
+
+# Běhové soubory a databáze z ukázek
+*.db
+*.sqlite
